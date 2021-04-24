@@ -14,8 +14,8 @@
   "enableDatestamp": true,
   "enableGithubLink": false,
   "enableContact": false,
-  "enableNetlifyCMS": true,
+  "enableNetlifyCMS": false,
   "enableComments": false,
   "enableEncryption": false,
-  "enablePageNavigation": true
+  "enablePageNavigation": false
 }
