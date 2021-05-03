@@ -7,7 +7,6 @@
   "githubUrl": "https://github.com/lemmallari/lemscorner",
   "githubBranch": "main",
   "navigationStyle": "vertical",
-  "emoji": "💥",
   "enableSearch": true,
   "enableDarkMode": true,
   "enableEditButton": false,
