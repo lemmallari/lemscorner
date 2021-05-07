@@ -1,39 +1,77 @@
 ---
-title: Blockchain Concepts and Terms
+title: Buying Your First Bitcoin
 date: Last Modified 
-permalink: /blockchain-concepts-terms/index.html
+permalink: /first-bitcoin/index.html
 eleventyNavigation:
-  key: blockchain-concepts-terms
-  order: 2
-  title: Blockchain Concepts and Terms
+  key: first-bitcoin
+  order: 1
+  title: Buying Your First Bitcoin
   parent: crypto
 ---
-{% image "bitcoin-concepts-terms.jpg" "bitcoin gold nuggets" %}
+{% image "buybitcoin.jpg" "buying bitcoin" %}
 
-This is an old post I recovered from my notes when I was still writing actively last 2017. I realized then that a lot of people getting involved with cryptocurrencies usually start out with Bitcoin but have no idea on how Bitcoin or blockchain works. In this post I'll try to explain a bunch of concepts and terms that you might hear when dealing with Bitcoin or blockchains in general.
+:::warning
+*Crypytocurrencies are very volatile! Only invest what you can afford to lose!*
+:::
 
----
+Most of the people who I had a chance to speak to regarding Bitcoin but haven't jumped on the cryptocurrency bandwagon yet often complain about two things. First is "Bitcoin is too expensive and I won't be able to buy one." The second is, "This is all too technical for me and I'm afraid I might lose money if I do something wrong."
 
-Reaching another record high, Bitcoin is gaining more and more attention. Most probably crypto traders, miners and enthusiasts alike will notice that more and more people are talking about Bitcoin and cryptocurrency in general. Whenever Bitcoin reaches a new all-time-high, a bunch of new users are pulled in by the hype and try to put in as much money as they can in crypto. This usually clogs up the system which results to people asking why their transactions fees are way too high and why it's taking a long time for their transaction to push through (aka why is my transaction not yet confirmed).
+We'll tackle the first point in this post and touch a bit about the 2nd point.
 
-If you haven't read the bitcoin [white paper](https://bitcoin.org/bitcoin.pdf), I highly suggest that you do. If you don't have the time, I'll try to simplify some of the concepts behind transaction fees and confirmation times. However, before that, we must familiarize ourselves with some basic terms in Bitcoin and the blockchain technology.
+"Bitcoin is too expensive and I won't be able to buy one." is one of the most common misconception about Bitcoin. While it is true that Bitcoin is expensive (currently trading at ~50,000 USD as of writing), it doesn't necessarily mean you won't be able to buy Bitcoin since you can buy a fraction of it. Yup, you've read that right. You don't need to buy a whole bitcoin for 50,000 USD. You can buy 100 USD or even 50 USD worth of Bitcoin. So how do you buy one?
 
-### Transactions
+There are multiple ways of buying Bitcoin or cryptocurrencies. You can buy from different websites, exchanges or from other people. Let's look at the different ways you can buy Bitcoin. Note that most of my examples will be focused on folks residing in Singapore and the Philippines but most of it should be applicable to you not unless the site I mention is blocked in your country.
 
-Let's start with a very basic concept of transaction.  The wiki defines a [transaction](https://en.bitcoin.it/wiki/Transaction) as "a transfer of Bitcoin value that is broadcast to the network and collected into blocks". To put it simply, you can consider your buy/sell/withdraw/send bitcoins as a transaction. Whenever you buy Bitcoins from Coinbase or send your Bitcoins as payments, those activities are all considered as transactions because you gain or lose Bitcoin and that gain or loss is then recorded in a block. A transaction also contains inputs and outputs but more on that later.
+### Buying from Coinhako
 
-### Blocks
+If you're in Singapore, one of the most convenient place to buy Bitcoin is thru Coinhako. Simply [sign up](https://www.coinhako.com/affiliations/sign_up/LEMUELLOUI_802098) (PS. This is using my referral link), and submit your KYC (know your customer) documents for verification. This is required for majority of the sites selling cryptocurrencies. After your KYC is completed and your profile has been verified you can simply click on *Buy with Card*:
 
-As mentioned earlier, transactions are all collected into blocks. So what is a block? A block is a container of transactions. This is where all transactions are permanently recorded. You can think of a block as a ledger where you note down whom you paid and who paid you. Whenever you make a transaction (buy or sell), it will be saved in a block and later on stored in the blockchain.
+{% image "coinhako-buywithcard.png" "coinhako buy with card" "800px" %}
 
-### Blockchain
+Enter the details of your purchase:
 
-We already know what a transaction and block is. Now it's time for us to discuss what a blockchain is. A blockchain is literally just a chain of blocks. What makes the blockchain technology great is the fact that since all transactions are recorded in a block and a block is later on added to the blockchain, all historical transactions starting from the genesis block (the very first block mined) up until the latest transaction are visible to everyone. There are more technical aspects behind the blockchain but we won't discuss it for now. Just understand that a blockchain is a collection of blocks where ALL transactions in the Bitcoin network is stored. From the first transaction of Satoshi Nakamoto to Hal Finney, the 10,000 BTC worth of pizza bought way back, up until the recent Bitcoin purchased are all stored in the blockchain.
+{% image "coinhako-paymentdetails.png" "coinhako payment detailsl" "300px" %}
 
-### Miners
+Click *Buy BTC* and you're done.
 
-I mentioned above that a blockchain is a collection of linked blocks where all our transaction are saved. However, have you thought how blocks are created and who maintains the blockchain? Nodes, most specifically mining nodes or what we commonly call Miners are responsible for all of these. All miners have a copy of the entire blockchain in their nodes. So as not to complicate things, you can think of a node as a computer used by a miner. It's the responsibility of the miners to secure the Bitcoin network. They do this by constantly validating blocks added in the network and making sure that those blocks are valid. They are also responsible for creating blocks that will be added in the blockchain. Whenever there are set of transactions done in the Bitcoin network, miners compete with each other to find what is known as a hash so that they get rewarded. Currently a miner who successfully solves a block is rewarded 12.5 Bitcoins. This cycle of finding a block and adding them to the blockchain usually takes on average 10 minutes. This means there are roughly 6 blocks added to the blockchain every hour.
+You can also download the coinhako application on your mobile phone and follow the steps mentioned above.
 
----
+### Buying from Coinbase
 
-In a later post which also came from my old notes, I'll be discussing why we sometimes get high transaction fees and long confirmation times with Bitcoin.
+Outside Singapore, the easiest way in my opinion to buy Bitcoin is thru Coinbase. You just need to sign up first [here](https://www.coinbase.com/join/villan_9b) (PS. This is using my referral link). After signing up, you will have to undergo a KYC (know-your-customer) verification. After your KYC is completed and your profile has been verified you can simply click on the Buy/Sell button in Coinbase:
+
+{% image "coinbase-buysell.png" "coinbase buy/sell" "800px" %}
+
+Add a payment method and enter the details of your chosen payment method (since this is your first time buying):
+
+{% image "coinbase-addpayment.png" "coinbase buy/sell" "300px" %}
+
+Enter the amount you wish to buy and click *Buy Bitcoin*:
+
+{% image "coinbase-buybitcoin.png" "coinbase buy/sell" "300px" %}
+
+You can also download the Coinbase application on your mobile phone and follow the same steps mentioned above.
+
+### Buying from Coins.ph
+
+If you're in the Philippines, the most convenient way (but not necessarily the best) to buy Bitcoin is thru Coins.ph. Simply [sign up](https://app.coins.ph/welcome/signup), and submit your KYC documents for verification. After your KYC is completed and your profile has been verified you can click on the *Cash In* link, select from the multitude of payment channels available (there's a ton of payment channels and I won't be able to go into detail one by one), enter the amount you wish to buy and you're done.
+
+You can also download the Coins.ph application on your mobile phone and follow the same steps mentioned above.
+
+::: callout
+*Please note that there are other ways to buy Bitcoin. The things I mentioned above are the most convenient way for beginners to buy Bitcoin but it's not necessarily the cheapest. There are other cheaper ways you can buy Bitcoin which I will cover in succeeding posts.*
+:::
+
+### I got my coins now, what's next?
+
+Whichever method you chose to buy your first Bitcoin, the end result will alway be your bitcoin being sent to your Bitcoin wallet in your chosen site. So what's next? If you've been following this post, and I assume you have, I need to warn you that the Bitcoin you just bought is not yet technically yours. They are currently in a custodial wallet from whichever site you bought them from. Custodial wallets means that the private keys of the wallet does not belong to you. And there's a famous saying in cryptocurrency:
+
+> *Not your keys, not your coins*
+
+This means that if the site where you got your Bitcoin got hacked, there's a high probability that you will lose your coins. So what options do you have?
+
++ Add a 2-Factor Authentication to all sites where you bought your bitcoins using Google Authenticator/Authy/LastPass Authenticator
++ Install non-custodial wallets in either your mobile or desktop/laptop and transfer your coins there
++ If you prefer to just buy once and keep it for a long time you can either create a paper wallet or purchase a hardware wallet and send your coins for safe keeping.
+
+I'll be writing about those three bullets I mentioned above later on. Keep in mind that you can still keep your coins in these sites but it's much safer and better to keep them secure on your non-custodial wallets.
