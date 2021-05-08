@@ -12,9 +12,9 @@
   "enableEditButton": false,
   "enableDatestamp": true,
   "enableGithubLink": false,
-  "enableContact": false,
+  "enableContact": true,
   "enableNetlifyCMS": false,
   "enableComments": false,
   "enableEncryption": false,
-  "enablePageNavigation": false
+  "enablePageNavigation": true
 }
