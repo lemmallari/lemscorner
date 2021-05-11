@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/broeker/spacebook",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy": "^0.12.1",
     "alpinejs": "^2.7.3",
     "eleventy-plugin-lazyimages": "^2.1.0",
     "eslint": "^7.9.0",
@@ -40,6 +40,7 @@
     "autoprefixer": "^10.1.0",
     "clean-css": "^4.2.1",
     "clean-css-cli": "^4.3.0",
+    "dotenv": "^9.0.2",
     "elasticlunr": "^0.9.5",
     "eleventy-plugin-embed-everything": "^1.9.4",
     "eleventy-plugin-nesting-toc": "^1.2.0",
