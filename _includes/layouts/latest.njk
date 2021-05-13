@@ -9,15 +9,10 @@ section: latest
 		<ul>
 		{% set postCount = 0 %}
 		{% for page in collections.menuItems | reverse %}
-			{% if page.data.eleventyNavigation.parent and postCount != 3 %}
+			{% if page.data.eleventyNavigation.parent and postCount != 10 %}
 				{% set postCount = postCount + 1 %}
 				<li><a href="{{ page.url | url }}">{{ page.data.title }}</a></li>
 			{% endif %}
 		{% endfor %}
-		</ul>
-		<h2>Other Stuff</h2>
-		<ul>
-			<li><a href="https://bit.ly/3ggKZZi">Binance Trades Tracking Sheet</a></li>
-		</ul>
 	</div>
 </main>
