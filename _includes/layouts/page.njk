@@ -20,9 +20,9 @@ section: page
     <div class="mt-4 px-6 md:px-6 lg:px-8 xl:px-12 w-full max-w-5xl">
         <div class="wrapper flex justify-between">
             {% if site.enableTOC and toc %} 
-            < class="main flex flex-col pr-0 xl:pr-64 prose sm:prose lg:prose-lg xl:prose-md">
+            <div class="main flex flex-col pr-0 xl:pr-64 prose sm:prose lg:prose-lg xl:prose-md">
             {% else %}
-             < class="main  flex flex-col pr-0 prose sm:prose lg:prose-lg xl:prose-md">
+             <div class="main  flex flex-col pr-0 prose sm:prose lg:prose-lg xl:prose-md">
             {% endif %}    
                 <article>
                 <h1 class="dark:text-gray-500">{{ title }}</h1>
@@ -57,9 +57,11 @@ section: page
                     {% endif %}
                 </div>
                 </article>
-                <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-layout="button_count"></div>
-                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <script type="IN/Share" data-url="{{ site.url }}{{ page.url }}"></script>
+                <div class="flex space-x-4 flex-row">
+                    <div><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+                    <div class="fb-share-button" data-href="{{ site.url }}{{ page.url }}" data-layout="button_count"></div>
+                    <div><script type="IN/Share" data-url="{{ site.url }}{{ page.url }}"></script></div>
+                </div>
             </div>
             
             {% if site.enableTOC and toc %}
