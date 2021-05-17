@@ -1,6 +1,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ site.name }}" />
+  <meta property="og:description" content="{{ site.subtitle }}" />
   <title>{{ renderData.title or title or site.name }}</title>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or site.description }}">
   <link rel="stylesheet" href="/style.css?v={% version %}"/>
